@@ -1,0 +1,33 @@
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.deps.json
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.pdb
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\obj\Debug\net8.0\refint\Domain.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.pdb
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Dominio\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.deps.json
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.pdb
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.pdb
+C:\Users\RCarl\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.deps.json
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\bin\Debug\net8.0\Domain.pdb
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\Domain.pdb
+C:\Users\LOQ\Downloads\ProyectoFinal\Dominio\obj\Debug\net8.0\ref\Domain.dll

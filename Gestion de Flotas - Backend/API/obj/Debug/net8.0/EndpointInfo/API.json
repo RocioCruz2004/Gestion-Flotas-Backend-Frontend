@@ -1,0 +1,1253 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/AsignacionesRutas": {
+      "get": {
+        "tags": [
+          "AsignacionesRutas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "AsignacionesRutas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignacionesRutasDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignacionesRutasDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignacionesRutasDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/AsignacionesRutas/{id}": {
+      "put": {
+        "tags": [
+          "AsignacionesRutas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignacionesRutasDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignacionesRutasDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AsignacionesRutasDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Conductores": {
+      "get": {
+        "tags": [
+          "Conductores"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Conductores"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConductoresDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConductoresDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConductoresDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Conductores/{id}": {
+      "get": {
+        "tags": [
+          "Conductores"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Conductores"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConductoresDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConductoresDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConductoresDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Conductores/buscar": {
+      "get": {
+        "tags": [
+          "Conductores"
+        ],
+        "parameters": [
+          {
+            "name": "nombre",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cedula",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "licencia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "estado",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/ConductoresEnums"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Incidencias": {
+      "get": {
+        "tags": [
+          "Incidencias"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Incidencias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncidenciasDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncidenciasDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncidenciasDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Incidencias/{id}": {
+      "put": {
+        "tags": [
+          "Incidencias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncidenciasDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncidenciasDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncidenciasDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Incidencias/buscar": {
+      "get": {
+        "tags": [
+          "Incidencias"
+        ],
+        "parameters": [
+          {
+            "name": "tipo",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/IncidenciasTipoEnums"
+            }
+          },
+          {
+            "name": "gravedad",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/IncidenciasGravedadEnums"
+            }
+          },
+          {
+            "name": "estado",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/IncidenciasEstadosEnums"
+            }
+          },
+          {
+            "name": "fechaInicio",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "fechaFin",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Roles": {
+      "get": {
+        "tags": [
+          "Roles"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Roles"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolesDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolesDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolesDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Roles/{id}": {
+      "put": {
+        "tags": [
+          "Roles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolesDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolesDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolesDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RutasHorarios": {
+      "get": {
+        "tags": [
+          "RutasHorarios"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "RutasHorarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RutasHorariosDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RutasHorariosDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RutasHorariosDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RutasHorarios/buscar": {
+      "get": {
+        "tags": [
+          "RutasHorarios"
+        ],
+        "parameters": [
+          {
+            "name": "nombre",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "origen",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "destino",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dias",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "estado",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/RutasHorariosEnums"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RutasHorarios/{id}": {
+      "put": {
+        "tags": [
+          "RutasHorarios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RutasHorariosDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RutasHorariosDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RutasHorariosDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Unidades": {
+      "get": {
+        "tags": [
+          "Unidades"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Unidades"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Unidades/{id}": {
+      "get": {
+        "tags": [
+          "Unidades"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Unidades"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Unidades/buscar": {
+      "get": {
+        "tags": [
+          "Unidades"
+        ],
+        "parameters": [
+          {
+            "name": "placa",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "modelo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "minCapacidad",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "maxCapacidad",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "estado",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/UnidadesEnums"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UnidadesConductores": {
+      "post": {
+        "tags": [
+          "UnidadesConductores"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesConductoresDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesConductoresDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesConductoresDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "UnidadesConductores"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UnidadesConductores/{id}": {
+      "put": {
+        "tags": [
+          "UnidadesConductores"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesConductoresDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesConductoresDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnidadesConductoresDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuarios": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuariosDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuariosDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuariosDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/buscar": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "nombre",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "rolId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "estado",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/UsuariosEnums"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/{id}": {
+      "put": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuariosDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuariosDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuariosDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AsignacionesRutasDTO": {
+        "type": "object",
+        "properties": {
+          "asignacionId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "unidadConductorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "rutaHorarioId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "fechaAsignacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "estado": {
+            "$ref": "#/components/schemas/AsignacionesRutasEnums"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AsignacionesRutasEnums": {
+        "enum": [
+          "Activo",
+          "Inactivo"
+        ],
+        "type": "string"
+      },
+      "ConductoresDTO": {
+        "type": "object",
+        "properties": {
+          "conductorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "cedula": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "licencia": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "$ref": "#/components/schemas/ConductoresEnums"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConductoresEnums": {
+        "enum": [
+          "Activo",
+          "Inactivo"
+        ],
+        "type": "string"
+      },
+      "IncidenciasDTO": {
+        "type": "object",
+        "properties": {
+          "incidenciaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "asignacionId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tipo": {
+            "$ref": "#/components/schemas/IncidenciasTipoEnums"
+          },
+          "gravedad": {
+            "$ref": "#/components/schemas/IncidenciasGravedadEnums"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "$ref": "#/components/schemas/IncidenciasEstadosEnums"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IncidenciasEstadosEnums": {
+        "enum": [
+          "Activo",
+          "Inactivo"
+        ],
+        "type": "string"
+      },
+      "IncidenciasGravedadEnums": {
+        "enum": [
+          "Alto",
+          "Medio",
+          "Bajo"
+        ],
+        "type": "string"
+      },
+      "IncidenciasTipoEnums": {
+        "enum": [
+          "FalloTecnico",
+          "Choque",
+          "FaltaConductor"
+        ],
+        "type": "string"
+      },
+      "RolesDTO": {
+        "type": "object",
+        "properties": {
+          "rolId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "$ref": "#/components/schemas/RolesEnums"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RolesEnums": {
+        "enum": [
+          "Activo",
+          "Inactivo"
+        ],
+        "type": "string"
+      },
+      "RutasHorariosDTO": {
+        "type": "object",
+        "properties": {
+          "rutaHorarioId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "origen": {
+            "type": "string",
+            "nullable": true
+          },
+          "destino": {
+            "type": "string",
+            "nullable": true
+          },
+          "distancia": {
+            "type": "number",
+            "format": "double"
+          },
+          "horaSalida": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "horaLlegada": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dias": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "$ref": "#/components/schemas/RutasHorariosEnums"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RutasHorariosEnums": {
+        "enum": [
+          "Activo",
+          "Inactivo"
+        ],
+        "type": "string"
+      },
+      "UnidadesConductoresDTO": {
+        "type": "object",
+        "properties": {
+          "unidadConductorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "unidadId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "conductorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "estado": {
+            "$ref": "#/components/schemas/UnidadesConductoresEnums"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UnidadesConductoresEnums": {
+        "enum": [
+          "Activo",
+          "Inactivo"
+        ],
+        "type": "string"
+      },
+      "UnidadesDTO": {
+        "type": "object",
+        "properties": {
+          "unidadId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "placa": {
+            "type": "string",
+            "nullable": true
+          },
+          "modelo": {
+            "type": "string",
+            "nullable": true
+          },
+          "capacidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estado": {
+            "$ref": "#/components/schemas/UnidadesEnums"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UnidadesEnums": {
+        "enum": [
+          "Activo",
+          "Inactivo"
+        ],
+        "type": "string"
+      },
+      "UsuariosDTO": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "contrasena": {
+            "type": "string",
+            "nullable": true
+          },
+          "rolId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "estado": {
+            "$ref": "#/components/schemas/UsuariosEnums"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuariosEnums": {
+        "enum": [
+          "Activo",
+          "Inactivo"
+        ],
+        "type": "string"
+      }
+    }
+  }
+}

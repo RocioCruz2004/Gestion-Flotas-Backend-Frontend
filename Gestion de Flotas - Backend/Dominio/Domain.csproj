@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Asignaciones_Rutas.cs" />
+    <Compile Remove="Entities\Rutas_Horarios.cs" />
+    <Compile Remove="Entities\Unidades_Conductores.cs" />
+    <Compile Remove="Interfaces\IAsignaciones_RutasRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

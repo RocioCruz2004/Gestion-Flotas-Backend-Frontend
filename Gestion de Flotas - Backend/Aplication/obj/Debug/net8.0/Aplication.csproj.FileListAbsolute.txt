@@ -1,0 +1,15 @@
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\bin\Debug\net8.0\Aplication.deps.json
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\bin\Debug\net8.0\Aplication.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\bin\Debug\net8.0\Aplication.pdb
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\bin\Debug\net8.0\Domain.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\bin\Debug\net8.0\Domain.pdb
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\Aplication.csproj.AssemblyReference.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\Aplication.AssemblyInfoInputs.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\Aplication.AssemblyInfo.cs
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\Aplication.csproj.CoreCompileInputs.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\Aplication.csproj.Up2Date
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\Aplication.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\refint\Aplication.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\Aplication.pdb
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Aplication\obj\Debug\net8.0\ref\Aplication.dll

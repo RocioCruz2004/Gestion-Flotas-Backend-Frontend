@@ -1,0 +1,51 @@
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\UNIVERSIDAD\3TALLER-SISTEMA-INFORMACION-III\New folder\ProyectoFinal\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\RCarl\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\LOQ\Downloads\ProyectoFinal\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
